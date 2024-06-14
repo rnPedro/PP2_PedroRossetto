@@ -62,5 +62,4 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 ## Autor
 
 - [Pedro Henrique](https://github.com/rnPedro)
-```
 
