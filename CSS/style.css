@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box; 
+}
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.header {
+  background: #333;
+  padding: 16px;
+}
+
+.nav {
+  max-width: 1280px;
+  height: 70px;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.nav-list a {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.hero {
+  height: calc(100vh - 70px);
+  background: url('../images/back2.jpg') no-repeat center center/cover;
+}
+
+.hamburger {
+  display: none;
+  border: none;
+  background: none;
+  border-top: 3px solid #fff;
+  cursor: pointer;
+}
+
+.hamburger::after,
+.hamburger::before {
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  margin-top: 5px;
+  position: relative;
+  transition: 0.3s;
+}
+
+@media (max-width: 750px) {
+ .shadow-box {
+      padding: 15px;
+      margin: 15px 0;
+      height: 150px; /* Altura fixa para telas menores - ajuste conforme necessário */
+  }
+}
+
+.logo {
+  width: 20px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.carousel-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto; 
+  background-color: #a5c;
+}
+
+.shadow-box {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 200px;
+}
+
+@media (max-width: 768px) {
+  .shadow-box {
+    padding: 15px;
+    margin: 15px 0;
+    height: 150px;
+  }
+}
+
+.ver-conteudo-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.ver-conteudo-btn:hover {
+  background-color: #0056b3;
+}
+
+.conteudo {
+  display: none;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
+

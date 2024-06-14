@@ -1,0 +1,5 @@
+AUTOR: Pedro Henrique Rossetto Natal
+Tema: ASCII
+Link de onde o site esta hospedado: pedropp2.rf.gd
+
+Observações: O site no qual eu estou hospedando está todo bugado, eu passei dias configurando ele e o banco de dados e mesmo assim quando eu envio os dados do formulario, ele nao recebe no banco de dados, o que é uma incóngnita para mim, pois quando eu ligo o apache e o sql no xaamp, tudo funciona perfeitamente, tirando o fato de alguns elementos css estarem todos desalinhados e duplicados, tendo em vista que no localhost isso nao acontece, de qaulquer forma eu vou levar meu notebook para te mostrar, e outra coisa importante é que a hospedagem gratuita limita a quantidade de arquivos, entao tinha hora que meus arquivos nao subiam por conta disso, e eu nao achei outra plataforma sem ser a infinityfree, então espero que vc leve em consideração esses aspectos, mas meu site esta funcionando e cumprindo os requisitos que voce pediu.
