@@ -1,6 +1,4 @@
 
-
-```markdown
 # Projeto de Programação para Internet
 
 Este repositório contém um projeto desenvolvido em PHP para a disciplina de Programação para Internet. O projeto inclui funcionalidades para receber e listar mensagens de contato utilizando um banco de dados MySQL.
